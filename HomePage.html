@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- <link rel="stylesheet" type="text/css" href="stylesheet.css" /> -->
+       <style>
+@font-face {
+    font-family:"biraRg";
+    src:url("Bira_PERSONAL_USE_ONLY");
+}
+         body{
+            width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 5px solid black;
+            text-align: center;
+        }
+        .heading{
+            font-size: 25px;
+            font-family: 'biraRg';
+            color: orangered
+        }
+        .price{
+            font-size: 16px;
+            line-height: 2;
+            color: brown;
+        }
+        .marginAuto{
+            margin: auto;
+        }
+        a:hover{
+            cursor: pointer;
+        }
+       </style>
         <title>
            Wine shop
         </title>
     </head>
     <body>
         <img src="image/light-vs-strong.jpg" >
-        <div>
+        <div class="heading">
             BIRA            
         </div>
-        <div>
+        <div class="price">
             RS.120
         </div>
-        <ul>
-            <li>
-                Very good for health 
-            </li>
-            <li>
-                often use it 
-            </li>
-        </ul>
+        <div>
+            Very good for health
+        </div>
+        <div>
+            often use it 
+        </div>         
         <a href="https://www.bira91.com/home/">Welcome to BIRA</a>
     </body>
 </html>

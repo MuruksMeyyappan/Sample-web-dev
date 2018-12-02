@@ -1,20 +1,11 @@
-const http = require('http');
-const hostname = 'localhost';
-const port = 8000;
-const fs = require('fs');
-
-fs.readFile('HomePage.html',(err, html) => {
-        if(err){
-                throw err;
-        }
-        const server = http.createServer((req , res)=>{
-                res.statusCode = 200;
-                res.setHeader('Content-type', 'text/html');
-                res.write(html)
-                res.end();
-        });
-        
-        server.listen(port, hostname , ()=>{
-                console.log("server started port no:"+port);
-        });
+var express = require('express');
+var app = express();
+var path = require('path');
+ 
+app.use('/cssFiles',express.static(__dirname + '/styles'));
+app.use('/image',express.static(__dirname +  '/image'));
+app.get('/', function(req, res) {
+    res.sendfile('HomePage.html', {root : path.join(__dirname,'./src')});
 });
+
+app.listen(8000);

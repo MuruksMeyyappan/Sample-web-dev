@@ -1,0 +1,22 @@
+{
+  "name": "sample-web-dev",
+  "version": "1.0.0",
+  "description": "Server app",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuruksMeyyappan/Sample-web-dev.git"
+  },
+  "author": "Muruks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuruksMeyyappan/Sample-web-dev/issues"
+  },
+  "homepage": "https://github.com/MuruksMeyyappan/Sample-web-dev#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

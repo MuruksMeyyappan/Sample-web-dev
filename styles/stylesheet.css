@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'bira_personal_use_onlyregular';
+    src: url('bira_personal_use_only-webfont.woff2') format('woff2'),
+         url('bira_personal_use_only-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'halogen_by_pixel_surplusRg';
+    src: url('halogenbypixelsurplus-regular-webfont.woff2') format('woff2'),
+         url('halogenbypixelsurplus-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'halogen_rough_by_pixel_surpRg';
+    src: url('halogenroughbypixelsurplus-regular-webfont.woff2') format('woff2'),
+         url('halogenroughbypixelsurplus-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'harry_pregular';
+    src: url('harryp__-webfont.woff2') format('woff2'),
+         url('harryp__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#body{
+    width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 5px solid black;
+    text-align: center;
+}
+.heading{
+    font-size: 25px;
+    font-family: 'bira_personal_use_onlyregular';
+    font-weight: bold;
+    color: orangered
+}
+.price{
+    font-size: 20px;
+    font-family: 'halogen_by_pixel_surplusRg';
+    line-height: 2;
+    color: brown;
+}
+.marginAuto{
+    margin: auto;
+}
+.subDesc{
+    font-size: 20px;
+    font-family: 'halogen_rough_by_pixel_surpRg';
+}
+.desc{
+    font-size: 20px;
+    font-family: 'harry_pregular';
+}
+a:hover{
+    cursor: pointer;
+}
+.mesg{
+    margin-top: 10px;
+}

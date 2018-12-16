@@ -4,7 +4,7 @@
   "description": "Server app",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "start": "nodemon ./server/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,14 @@
   },
   "homepage": "https://github.com/MuruksMeyyappan/Sample-web-dev#readme",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
     "hapi": "^17.8.1",
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }

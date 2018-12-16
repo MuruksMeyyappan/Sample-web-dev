@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\m_mam\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add nodemon --dev
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\m_mam\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\nodejs;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Users\m_mam\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\m_mam\AppData\Roaming\npm;C:\Program Files (x86)\Nmap;C:\Users\m_mam\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\m_mam\AppData\Local\Yarn\Cache\v4\npm-url-join-2.0.5-5af22f18c052a000a48d7b82c5e9c2e2feeda728\node_modules\url-join\README.md' -> 'D:\React\Sample-web-dev\node_modules\url-join\README.md'
+
+npm manifest: 
+  {
+    "name": "sample-web-dev",
+    "version": "1.0.0",
+    "description": "Server app",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon ./server/index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MuruksMeyyappan/Sample-web-dev.git"
+    },
+    "author": "Muruks",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/MuruksMeyyappan/Sample-web-dev/issues"
+    },
+    "homepage": "https://github.com/MuruksMeyyappan/Sample-web-dev#readme",
+    "dependencies": {
+      "express": "^4.16.4",
+      "hapi": "^17.8.1",
+      "http-server": "^0.11.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
